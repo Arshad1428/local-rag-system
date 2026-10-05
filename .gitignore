@@ -21,8 +21,7 @@ __pycache__/
 Thumbs.db
 
 # Generated ChromaDB storage
-storage/chroma/*
-!storage/chroma/.gitkeep
+storage/chroma/
 
 # Hugging Face / model cache
 .cache/
