@@ -1,0 +1,31 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated ChromaDB storage
+storage/chroma/*
+!storage/chroma/.gitkeep
+
+# Hugging Face / model cache
+.cache/
+
+# Logs
+*.log
